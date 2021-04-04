@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q9__content{
+.q9__content {
   margin: 0 auto;
   width: 500px;
   position: relative;
@@ -14,7 +14,7 @@
 }
 
 .q9__content:before,
-.q9__content:after{
+.q9__content:after {
   position: absolute;
   content: '';
   border: 30px solid transparent;
@@ -22,12 +22,12 @@
   left: 10%;
 }
 
-.q9__content:before{
+.q9__content:before {
   border-top-color: #222;
   margin-top: 5px;
 }
 
-.q9__content:after{
+.q9__content:after {
   border-top-color: #fff;
   margin-top: -2px;
 }

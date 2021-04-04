@@ -7,82 +7,82 @@
   clear:both;
 }
 
-.q7__box{
+.q7__box {
   width: 225px;
   box-sizing: border-box;
   font-size: 16px;
 }
 
-.clearfix{
+.clearfix {
   width: 520px;
   overflow: hidden;
 }
 
-.box__float{
+.box__float {
   float: left;
   margin-right: 50px;
 }
 
-.box__float:last-child{
+.box__float:last-child {
   margin: 0;
 }
 
-.inner__table{
+.inner__table {
   display: table;
 }
 
-.table__text{
+.table__text {
   display: table-cell;
 }
 
-.table__text:first-child{
+.table__text:first-child {
   padding-right: 25px;
 }
 
-.table__text:last-child{
+.table__text:last-child {
   padding-left: 25px;
 }
 
-.inlineblock__inner{
+.inlineblock__inner {
   display: block;
 }
 
-.inner__box{
+.inner__box {
   display: inline-block;
   vertical-align: middle;
   margin-left: 40px;
 }
 
-.inner__box:first-child{
+.inner__box:first-child {
   margin: 0;
 }
 
-.inner__flex{
+.inner__flex {
   display: flex;
 }
 
-.flex__box{
+.flex__box {
   margin: auto;
 }
 
-.flex__box:first-child{
+.flex__box:first-child {
   margin-bottom: 0;
 }
 
-.is-full{
+.is-full {
   font-size: 0;
 }
 
-.is-full__box{
+.is-full__box {
   display: inline-block;
   vertical-align: top;
 }
 
-.is-full__left{
+.is-full__left {
   width: 300px;
 }
 
-.is-full__right{
+.is-full__right {
   width: 100%;
   padding-left: 350px;
   margin-left: -300px;
