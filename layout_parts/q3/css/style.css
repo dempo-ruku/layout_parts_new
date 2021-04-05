@@ -24,7 +24,7 @@
   line-height: 22px;
 }
 
-.table tr:nth-child(even) {
+tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 

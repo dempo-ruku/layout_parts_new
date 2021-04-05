@@ -5,18 +5,18 @@
   text-align: center;
 }
 
-.align__text {
-  display: inline-block;
+.common {
   width: 90px;
   background-color: #e6f2ff;
   padding: 10px;
 }
 
+.align__text {
+  display: inline-block;
+}
+
 .q6__box__margin {
   margin: 0 auto;
-  padding: 10px;
-  background-color: #e6f2ff;
-  width: 90px;
   text-align: center;
 }
 
