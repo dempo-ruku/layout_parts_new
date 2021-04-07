@@ -7,15 +7,10 @@
   clear:both;
 }
 
-.q7__box {
+.common {
   width: 225px;
   box-sizing: border-box;
   font-size: 16px;
-}
-
-.clearfix {
-  width: 520px;
-  overflow: hidden;
 }
 
 .box__float {
@@ -32,6 +27,7 @@
 }
 
 .table__text {
+  vertical-align: middle;
   display: table-cell;
 }
 
@@ -50,11 +46,10 @@
 .inner__box {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 40px;
 }
 
-.inner__box:first-child {
-  margin: 0;
+.inner__box:last-child {
+  margin-left: 40px;
 }
 
 .inner__flex {
@@ -74,8 +69,10 @@
 }
 
 .is-full__box {
+  box-sizing: border-box;
   display: inline-block;
   vertical-align: top;
+  font-size: 16px;
 }
 
 .is-full__left {

@@ -10,16 +10,15 @@
   font-size: 16px;
   line-height: 16px;
   border-radius: 30px;
-  box-sizing: border-box;
 }
 
 .q9__content:before,
 .q9__content:after {
   position: absolute;
   content: '';
-  border: 30px solid transparent;
+  border: 20px solid transparent;
   top: 100%;
-  left: 10%;
+  left: 5.6%;
 }
 
 .q9__content:before {

@@ -34,6 +34,9 @@
   padding: 20px;
 }
 
+.q8__box p {
+  word-break: break-all;
+}
 
 @keyframes load8 {
   0%{
