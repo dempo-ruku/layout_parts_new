@@ -39,10 +39,6 @@
   padding-left: 25px;
 }
 
-.inlineblock__inner {
-  display: block;
-}
-
 .inner__box {
   display: inline-block;
   vertical-align: middle;
@@ -64,22 +60,22 @@
   margin-bottom: 0;
 }
 
-.is-full {
+.full__text {
   font-size: 0;
 }
 
-.is-full__box {
+.full__box {
   box-sizing: border-box;
   display: inline-block;
   vertical-align: top;
   font-size: 16px;
 }
 
-.is-full__left {
+.full__left {
   width: 300px;
 }
 
-.is-full__right {
+.full__right {
   width: 100%;
   padding-left: 350px;
   margin-left: -300px;
