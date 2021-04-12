@@ -8,6 +8,7 @@
   margin: 0 auto;
   width: 500px;
   height: 333px;
+  cursor : pointer;
 }
 
 .q8__img {
@@ -19,22 +20,24 @@
 }
 
 .q8__content__box:hover .q8__box {
-  transform: translateY(-150px);
+  transform: translateY(-333px);
 }
 
 .q8__box {
-  padding-left: 20px;
-  padding-bottom: 20px;
   background: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,8));
   position: absolute;
   color: #fff;
   font-size: 16px;
   line-height: 16px;
   transition: 0.5s;
-  padding: 20px;
+  height: 100%;
+  width: 100%;
 }
 
 .q8__box p {
+  bottom: 0;
+  position: absolute;
+  padding: 0 20px 20px 20px;
   word-break: break-all;
 }
 
